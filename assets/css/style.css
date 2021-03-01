@@ -1,4 +1,5 @@
 body{font-family: 'Lato', sans-serif;
+    color: black;
 }
 
 *Alert*/
@@ -52,4 +53,18 @@ width: 100%;
     font-weight: bold;
 }
 
+ #bg-image{
+    background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
+    height: 250px;
+    width: 70%
+    overflow: hidden;
+    position: relative;}
+    
+
  
+.bg-container{
+    height: 250px;
+    width:110%;
+    padding-left: 15px;
+    padding-right: 20px;
+    background: url("css/images/girl1.jpg") no-repeat center center fixed; }
