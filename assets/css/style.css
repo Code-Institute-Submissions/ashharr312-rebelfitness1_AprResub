@@ -68,3 +68,49 @@ width: 100%;
     padding-left: 15px;
     padding-right: 20px;
     background: url("css/images/girl1.jpg") no-repeat center center fixed; }
+
+
+    welcome-container{
+    width:110%;
+    padding-left: 15px;
+    padding-right: 20px;
+
+}
+
+.testimonial-container{
+    width:110%;
+    padding-left: 15px;
+    padding-right: 20px;}
+
+.footer-container{
+     width:110%;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+
+
+.welcome{
+     background-color:#ebe3e3;
+     text-align: center;
+     height: 400px;
+    width:100%;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 40px;}
+
+
+
+.testimonials{
+    background-color: cadetblue;
+    text-align: center;
+     height: 100%;
+    width:100%;
+   padding-left: 20px;
+    padding-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 40px;
+  
+    
+}
