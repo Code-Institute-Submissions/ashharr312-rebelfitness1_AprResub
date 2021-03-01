@@ -1,1 +1,35 @@
-body{font-family: 'Lato', sans-serif;}
+body{font-family: 'Lato', sans-serif;
+}
+
+*Alert*/
+ 
+.alert-container{}
+ 
+.alert-container .col-12{
+    
+padding-right: 0;
+padding-left: 0;
+margin-right: 0px;
+width: 100%;
+
+}
+
+
+.site-wide-alert{
+    color:white;
+    text-align: center;
+    background-color: cadetblue;
+    border-color: cadetblue;
+    padding:5px 0px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+    width: 110%;
+    margin-right: 0;
+}
+ 
+.site-wide-alert a{
+    color: white;
+    margin-left: 0px;
+    text-decoration:underline;
+}
