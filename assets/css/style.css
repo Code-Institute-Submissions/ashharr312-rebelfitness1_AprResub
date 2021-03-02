@@ -96,8 +96,7 @@ margin-right: 0px;
     width:100%;
     }
 
-.footer-container{
-     width:100%;
+
     
 }
 
@@ -214,4 +213,32 @@ margin-right: 0px;
 
 .copyright{
     margin-top:20px;
+}
+/*General Enquiry*/
+
+.form-container{
+  
+    width:100%;
+    }
+
+.form{
+
+     background-color:#ebe3e3;
+     text-align: center;
+     height: 400px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: cadetblue;}
+}
+.center-form{
+    position: absolute;
+    width:60%;
+    margin-left: 60px;
+    margin-right: 40px;
+    padding-left: 60px;
+    padding-right: 40px;
 }
