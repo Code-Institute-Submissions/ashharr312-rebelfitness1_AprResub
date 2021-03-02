@@ -1,6 +1,20 @@
 body{font-family: 'Lato', sans-serif;
     color: black;
 }
+*{
+    margin:0;
+    padding: 0;
+    border:0;}
+
+    .head{
+        margin-top: 40px;
+    }
+
+    .responsive-youtube
+{overflow:hidden; padding-bottom:56.25%; position:relative; height:0;padding-left: 50%;}
+.responsive-youtube iframe
+{left:0; top:0; height:50%; width:50%; position:absolute;}
+
 
 *Alert*/
  
@@ -11,7 +25,7 @@ body{font-family: 'Lato', sans-serif;
 padding-right: 0;
 padding-left: 0;
 margin-right: 0px;
-width: 100%;
+
 
 }
 
@@ -21,12 +35,13 @@ width: 100%;
     text-align: center;
     background-color: cadetblue;
     border-color: cadetblue;
-    padding:5px 0px;
+    padding:0px 15px;
     margin-bottom: 0;
     border: 1px solid transparent;
     border-radius: 0;
-    width: 110%;
-    margin-right: 0;
+    margin-right: 15px;
+   
+    
 }
  
 .site-wide-alert a{
@@ -37,7 +52,7 @@ width: 100%;
 
 .navbar{
     margin-bottom:0;
-    width:110%;
+    width:100%;
     background-color: black;
 }
  
@@ -56,7 +71,7 @@ width: 100%;
  #bg-image{
     background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
     height: 250px;
-    width: 70%
+    width: 100%
     overflow: hidden;
     position: relative;}
     
@@ -64,28 +79,24 @@ width: 100%;
  
 .bg-container{
     height: 250px;
-    width:110%;
-    padding-left: 15px;
-    padding-right: 20px;
+    width:100%;
+    
     background: url("css/images/girl1.jpg") no-repeat center center fixed; }
 
 
-    welcome-container{
-    width:110%;
-    padding-left: 15px;
-    padding-right: 20px;
+    .welcome-container{
+    width:100%;
+    
 
 }
 
 .testimonial-container{
-    width:110%;
-    padding-left: 15px;
-    padding-right: 20px;}
+    width:100%;
+    }
 
 .footer-container{
-     width:110%;
-    padding-left: 15px;
-    padding-right: 20px;
+     width:100%;
+    
 }
 
 
@@ -93,24 +104,112 @@ width: 100%;
 .welcome{
      background-color:#ebe3e3;
      text-align: center;
-     height: 400px;
-    width:100%;
+     
+     height:100%;
+    width: 100%;
     padding-left: 20px;
     padding-bottom: 30px;
     margin-left: 0px;
-    margin-right: 40px;}
+    margin-right: 40px;}  
 
+ #video{
+     width: 300px;
+     height: 200px;
+     position: relative;
+     padding-top: 40px;
+     padding-left: 30px;
+     padding-right: 60px;
+     padding-bottom: 40px;
+     
+ }
 
+ .footer-container{
+     width:100%;
+    
+}
+
+.footer{
+
+    background-color:#ebe3e3;
+    height:100%;
+    width: 100%;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;}  
+
+    .hours{
+     list-style-type: none;
+     border: 1px solid black;
+     background-color: #fff;
+     color: black;
+     width: 175px;
+     text-align: center;
+     padding-left: 5px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     
+ }
+
+ .inline-block{
+     display: inline;
+     width: 100px;
+     height: 100px;
+     padding:20px;
+     
+ }
+
+ /*Social-Networks*/
+.social-networks{
+    list-style-type: none;
+    
+}
+ 
+.social-networks li{
+ 
+    float:right;
+    padding:2.5%;
+    margin-top: 2px;
+    padding-bottom: 10px;
+}
+ 
+.social-networks li i{
+    color: white;
+    
+}
 
 .testimonials{
     background-color: cadetblue;
     text-align: center;
      height: 100%;
     width:100%;
-   padding-left: 20px;
-    padding-bottom: 30px;
+   padding-left: 10px;
+    padding-bottom: 20px;
     margin-left: 0px;
-    margin-right: 40px;
+    margin-right: 0px;
   
     
+}
+
+.bottom-footer-container{
+    width:100%;
+    padding-left: 0px;
+    
+    
+}
+
+.bottom{
+    height:75px;
+    width:100%;
+    background-color:cadetblue;
+    color:#fff;
+    padding-left:5px;
+    margin-top:0;
+    margin-left: 0px;
+    margin-right:0px;
+
+}
+
+.copyright{
+    margin-top:20px;
 }
