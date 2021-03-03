@@ -12,31 +12,30 @@
 </head>
 <body>
     <!--Alert-->
-    <div class="navalert-container">
+    <div class="alert-nav-container">
         <div class="alert-container">
         <div class="row d-none d-sm-block">
             <div class="col-12">
-                <div class="site-wide-alert alert alert-warning">
-                    <strong>Sale Now On!</strong> No Join Up Fee For The Month Of March!<strong><em><s> €24.99</s></em></strong>
-                    <a href=""><br>See here for more details!</a>
+                <div class="alert-banner alert alert-primary" role="alert">
+                <strong>Sale Now On!</strong> No Join Up Fee For The Month Of March!<strong><em><s>€24.99</s></em></strong><br><a href="#" class="alert-link">Click here for details!</a>
                 </div>
+            
             </div>
         </div>
-    </div>
+        </div>
+        </div>
 
     <!--/.Alert-->
 
-    
-    
+    <!--Nav-->
     <nav class="navbar navbar-dark navbar-expand-sm">
         <a href="/" class="navbar-brand">
             Rebel Fitness</a>
  
-    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <div class="collapse navbar-collapse" id="navbardropdown">
         <ul class="navbar-nav mr-auto">
             <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
             <li class="nav-item mr-2"><a class="nav-link" href="#">Contact</a></li>
@@ -45,10 +44,14 @@
             <li class="nav-item mr-2"><a class="nav-link" href="#">Sign Up</a></li>
         </ul>
     </div>
+
         
     </nav>
 
-     <!--Form-->
+    <!--/.Nav-->
+    
+    
+    <!--Form-->
     <div class="container-fluid form2-container">
     <section class="form-section">
     <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
@@ -74,11 +77,11 @@
     </div>
     <input class="join-button" type="submit" value="Sign Up!">
     </form>
-</div>
+
     </section>
 </div>
 
-     <!--Footer-->
+      <!--Footer-->
        <footer>
         <div class="footer-container">
             <section class="footer">
@@ -87,17 +90,17 @@
                 
             
                 <h5 class="headers">Find Us:</h5>
-                <h5 class="headers">Address:</h5>
+                 <h5>1 Penrose Quay, Victorian Quarter, Cork</h5>
                 <p class="inline-block">
                    <section id="map-wrapper">
-                    <iframe id="map" src="https://bit.ly/2QVfkiy" width="200px" height="100px"></iframe>
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2461.846025216821!2d-8.46433138421552!3d51.900273979701616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48449008e16f29ef%3A0x5eebf6993cd4cf17!2s1%20Penrose%20Quay%2C%20Victorian%20Quarter%2C%20Cork!5e0!3m2!1sen!2sie!4v1614730047218!5m2!1sen!2sie" style="border:0;" allowfullscreen="" loading="lazy" width="200" height="150"></iframe>
                    </section>
                 </p>
                 
             </div>
             <div class="col-sm-3">
                 <h5 class="headers">Opening Hours:</h5>
-                    <p class="inline-block d">
+                    <p class="header inline-block d">
                     <ul class="hours">
                                 <li>Mon 06:00-22:00</li>
                                 <li>Tue 06:00-22:00</li>
@@ -109,24 +112,22 @@
                             </ul>   
                             </p>
  
-            </div>
-
-            
+                        </div>
             <div class="col-sm-4">
                 <h5 class="headers">Coming Soon!</h5>
-                <h5 class="headers">Blog Post</h5>
-                <h6 class="headers">5 Top Protein Snacks</h6>
+                <h5>Blog Post</h5>
+                <h6>5 Top Protein Snacks</h6>
                 <p class="inline-block">
-                <img src="css/images/sky.jpg" height="200px" width="300px" alt="Cafe table"> 
-                </p>
-                
-            
+                <img src="assets/images/protein.jpg" height="150" width="200" alt="Eggs and avocado">
+                </p>  
+            </div>
             </div>
         </section>
         </div>
+
         </footer>
-
-
+    
+     <!--Bottom-Footer-->
      <div class="bottom-footer-container">
             <section class="bottom">
             <div class="row">
@@ -139,14 +140,15 @@
                     <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
                 </ul>
        
-    <span class="copyright">© 2021 Rebel Fitness</span>
+    <span class="copyright">© 2021 Rebel Fitness
+</span>
         </div>
         </div>
         </section>
         </div>
-    
+   <!--./Bottom-Footer--> 
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7 rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>   
 </body>
-</html>
+</html> 
