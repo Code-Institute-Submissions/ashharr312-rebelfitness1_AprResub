@@ -26,7 +26,7 @@ body{font-family: 'Lato', sans-serif;
   
   
 }
-alert-nav-container{
+.alert-nav-container{
     width:100%;
 }
 
@@ -425,7 +425,7 @@ background-color:white;
 
 .link{
     border: black;
-    float:left
+    float:left;
     margin-left: 45%;
     margin-top: 10px;
 }
@@ -461,19 +461,17 @@ background-color:white;
     padding:40px;
 }
 
-/!--Media Queries/
+
 
 @media (max-width: 480px) {
     #bg-image {
-        background-image: url("../images/indexsm.jpg");
-    }
-}
+        background-image: url("../images/indexsm.jpg");}
 
  @media (max-width: 480px) {
     #bg-image2 {
         background-image: url("../images/aboutsm.jpg");
     }
-}
+
 
 @media (max-width: 480px) {
     #bg-image3 {
@@ -519,10 +517,5 @@ background-color:white;
         max-width:70%;
         padding-left: 200px;
         max-height:100%;
-        padding-bottom: 200px;
-       
-   }
-}
-
-
- 
+        padding-bottom: 200px;} 
+                             }
