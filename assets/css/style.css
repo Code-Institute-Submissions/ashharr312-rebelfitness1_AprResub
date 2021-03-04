@@ -9,7 +9,7 @@ body{font-family: 'Lato', sans-serif;
 .header{
     padding-top:40px;
 }
-.alert-container.col-12{
+.alert-container{
    
     width: 100%;
 }
@@ -26,19 +26,20 @@ body{font-family: 'Lato', sans-serif;
   
   
 }
-
+alert-nav-container{
+    width:100%;
+}
 
 .navbar{
     margin-top: 0;
     margin-bottom:0;
-    width:100%;
     height: 75px;
     background-color: black;
     font-weight: 400;
 }
 
  
-.navbar-brand{
+.navbar-logo{
     font-size: xx-large;
     font-weight: 700;
     color: #fff;
@@ -53,7 +54,7 @@ body{font-family: 'Lato', sans-serif;
 
 
  #bg-image{
-    background: url("../images/index.jpg") no-repeat center center;
+    background: url("../images/index-large.jpg") no-repeat center center;
     height: 400px;
     width: 100%;
     
@@ -62,37 +63,36 @@ body{font-family: 'Lato', sans-serif;
 }
 
 #bg-image2{
-    background: url("../images/about.jpg.jpg") no-repeat center center;
-    height: 250px;
+    background: url("../images/about-large.jpg") no-repeat center center;
+    height: 400px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #bg-image3{
-    background: url("bg2.jpg") no-repeat center center;
-    height: 250px;
+    background: url("../images/membership-large.jpg") no-repeat center center;
+    height: 400px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #bg-image4{
-    background: url("../images/jonathan-borba-lrQPTQs7nQQ-unsplash\ \(1\).jpg") no-repeat center center;
-    height: 250px;
+    background: url("../images/class-large.jpg") no-repeat center center;
+    height: 400px;
     width: 100%;
-    overflow: hidden;
-    position: relative;}
+    overflow:hidden;
+    position: relative;
+}
+
     
 
  
 .bg-container{
-    height: 100%;
-    width:100%;
-   
-    
-    
-    background: url("assets/images/girl1.jpg") no-repeat center center fixed; }
+    height:100%;
+    width:100%;    
+    }
 
 
     /*Welcome*/
@@ -104,6 +104,7 @@ body{font-family: 'Lato', sans-serif;
 
     .welcome-container{
     width:100%;
+    padding-left: 10px;
 
     }
 
@@ -112,9 +113,10 @@ body{font-family: 'Lato', sans-serif;
        font-size: 20px;
     background-color: cadetblue;
     text-align: center;
-     height: 500px;
+     height:100%;
     width:100%;
    padding-left: 10px;
+   padding-right: 10px;
     padding-bottom: 50px;
     margin-left: 0px;
     margin-right: 0px;
@@ -134,7 +136,7 @@ body{font-family: 'Lato', sans-serif;
     padding-right: 20px;
     padding-bottom: 30px;
     margin-left: 0px;
-    margin-right: 40px;} 
+    margin-right:0px;} 
 
     
     
@@ -157,8 +159,6 @@ body{font-family: 'Lato', sans-serif;
     padding-left: 30px;
     padding-right: 10px;
     padding-bottom: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
     padding-top:20px ;} 
     
 
@@ -178,7 +178,7 @@ body{font-family: 'Lato', sans-serif;
 
  .inline-block{
      display: inline;
-     width: 100px;
+     width: 120px;
      height: 100px;
      padding:20px;
      
@@ -199,9 +199,7 @@ body{font-family: 'Lato', sans-serif;
     background-color:cadetblue;
     color:#fff;
     padding-left:5px;
-    margin-top:0;
-    margin-left: 0px;
-    margin-right:0px;
+
 
 }
 
@@ -229,17 +227,17 @@ body{font-family: 'Lato', sans-serif;
     padding-left: 20px;
   padding-bottom: 20px;
     
-  width:100%; 
-  height:50vw;
+  
   
 }
 
 
 .head{
      font-size: 40px;   
-    margin-top: 40px;
+    margin-top: 60px;
     text-align: center;
     margin-bottom: 20px;
+    padding-bottom: 30px;
     }
 
 
@@ -257,7 +255,7 @@ body{font-family: 'Lato', sans-serif;
     width:100%;
     padding:40px;
     margin-left: 0px;
-    margin-right: 40px;}
+    ;}
 
 .about-us-container{
     width:100%;
@@ -268,40 +266,37 @@ body{font-family: 'Lato', sans-serif;
 .form-container{
   
     width:100%;
+    
     }
 
 .form{
 
      background-color:cadetblue;
      text-align: center;
-     height:500px;
+     height:550px;
     width: 100%;
-    padding-left: 0px;
     padding-right: 10px;
-    padding-bottom: 0px;
-    margin-left: 0px;
-    margin-right:0px;
     padding-top:20px ;
     } 
 
-.center-form{
+.general-form{
     position: absolute;
-    width:70%;
-    margin-left: 0px;
-    padding-left: 100px;
+    width:75%;
+    padding-left: 90px;
     padding-right: 10px;
 
 }
 .form2container{
     padding-right: 10px;
+    width: 100%;
 }
 .form-section{
-    background:url("../images/bg2.jpg");
+    background:url("../images/sign-uplg.jpg");
      background-size: cover;
      background-position: center;
      overflow: hidden;
      height: 800px;
-     width:110%;
+     width:100%;
      padding-left: 15px;
     padding-right: 60px;}
      
@@ -316,6 +311,7 @@ body{font-family: 'Lato', sans-serif;
      max-width: 400px;
      position: absolute;
      left: 10%;
+     right:10%;
      padding: 30px;
      
      
@@ -337,24 +333,40 @@ body{font-family: 'Lato', sans-serif;
 }
 
 .text-input:hover{
-    border-color: #f16c6b;
+    border-color: blue;
+}
+
+.btn-sign{
+    margin-top: 20px;
+    border-radius: 1px;
+    text-align: center;
+    font-size: 100%;
+    background-color:cadetblue;
+    color: #fff;
+    display: block;
+    padding: 8px 12px 12px 8px;
+}
+
+.btn-submit:hover{
+    background-color:blue;
+    color:#fff;
 }
 
 .btn-submit{
     margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+    border-radius: 1px;
     text-align: center;
     font-size: 100%;
     background-color:black;
     color: #fff;
     display: block;
-}
+    padding: 8px 12px 12px 8px;}
 
-.btn-submit:hover{
-    background-color:#000;
+    .btn-sign:hover{
+    background-color:blue;
     color:#fff;
 }
+
 
 .picture{
     height:100px;
@@ -380,7 +392,6 @@ background-color:white;
     height:100%;
     width: 100%;
     padding-bottom: 30px;
-   margin-right: 0;
     } 
 
 
@@ -414,7 +425,7 @@ background-color:white;
 
 .link{
     border: black;
-    float:inherit;
+    float:left
     margin-left: 45%;
     margin-top: 10px;
 }
@@ -422,6 +433,8 @@ background-color:white;
 .classes{
     list-style-type: none;
     text-align: center;
+    padding-right:10px;
+    padding-left:10px;
 
 }
 
@@ -434,6 +447,7 @@ background-color:white;
  
 .class-container{
     height:100%;
+    width: 100%;
 }
 .descriptions{
     height: 100%;
@@ -447,41 +461,67 @@ background-color:white;
     padding:40px;
 }
 
+/!--Media Queries/
+
+@media (max-width: 480px) {
+    #bg-image {
+        background-image: url("../images/indexsm.jpg");
+    }
+}
+
  @media (max-width: 480px) {
-    .form-section {
-        background-image: url("../images/woman.jpg");
+    #bg-image2 {
+        background-image: url("../images/aboutsm.jpg");
     }
 }
 
-@media (min-width: 785px) and (max-width: 1024px) {
-    .form-section{
-        background-image: url("../images/woman.jpg");
+@media (max-width: 480px) {
+    #bg-image3 {
+        background-image: url("../images/membershipsm.jpg");
     }
 }
-
-@media (min-width: 1025px) {
-	.form-section {
-		background-image: url("../images/bg2.jpg");
-	}
+ @media (max-width: 480px) {
+    #bg-image4 {
+        background-image: url("../images/class-sm.jpg");
+    }
 }
 
 
     @media (max-width: 480px) {
     .form-section {
-        background-image: url("../images/woman.jpg");
+        background-image: url("../images/formsm.jpg");
     }
 }
 
-@media (min-width: 785px) and (max-width: 1024px) {
-    .form-section{
-        background-image: url("../images/woman.jpg");
+@media (max-width: 480px) {
+     .embed-responsive-item{
+        max-width:80%;
+        padding-left: 20px;
+        height: 200px;
+        
+       
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .embed-responsive-item{
+        max-width:70%;
+        padding-left: 60px;
+        height: 300px;
+        
+        
+        
     }
 }
 
 @media (min-width: 1025px) {
-	.form-section {
-		background-image: url("../images/bg2.jpg");
-	}
+    .embed-responsive-item{
+        max-width:70%;
+        padding-left: 200px;
+        max-height:100%;
+        padding-bottom: 200px;
+       
+   }
 }
 
 
