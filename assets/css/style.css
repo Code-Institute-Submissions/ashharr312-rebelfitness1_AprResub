@@ -1,63 +1,72 @@
 body{font-family: 'Lato', sans-serif;
     color: black;
 }
+
 *{
     margin:0;
     padding: 0;
     border:0;}
 
+
+/*Headers*/
+.head{
+     font-size: 40px;   
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    }
+
 .header{
     padding-top:40px;
 }
-.alert-container{
-   
-    width: 100%;
-}
 
-
+/*Alert*/
 
 .alert-banner{
     text-align: center;
     color:white;
     background-color: cadetblue;
     margin-bottom: 0px;
-    padding-bottom: 0px;
-    border: cadetblue;
+    border: cadetblue;}
   
   
-}
+
+
+
 .alert-nav-container{
     width:100%;
+    z-index: 1;
+    position: absolute;
+
 }
 
+/*Nav*/
 .navbar{
-    margin-top: 0;
-    margin-bottom:0;
-    height: 75px;
-    background-color: black;
+   
     font-weight: 400;
-}
+    width: 100%;
 
- 
-.navbar-logo{
-    font-size: xx-large;
+    
+}
+.navbar-brand{
+    font-size: x-large;
     font-weight: 700;
     color: #fff;
-    padding-right: 20px;
+   
 }
  
-.navbar .navbar-nav a{
-    font-weight: 300;
-    text-align: center;
-}
+/*Background-Image*/
+.bg-container{
 
-
+    width:100%;   
+   
+    }
 
  #bg-image{
     background: url("../images/index-large.jpg") no-repeat center center;
     height: 400px;
     width: 100%;
-    
     overflow: hidden;
     position: relative;
 }
@@ -86,47 +95,16 @@ body{font-family: 'Lato', sans-serif;
     position: relative;
 }
 
-    
-
- 
-.bg-container{
-    height:100%;
-    width:100%;    
-    }
-
-
     /*Welcome*/
 
-    .testimonial-container{
-    width:100%;
- 
-    }
 
     .welcome-container{
     width:100%;
-    padding-left: 10px;
+  
 
     }
 
-    
-   .testimonials{
-       font-size: 20px;
-    background-color: cadetblue;
-    text-align: center;
-     height:100%;
-    width:100%;
-   padding-left: 10px;
-   padding-right: 5px;
-    padding-bottom: 50px;
-    margin-left: 0px;
-    margin-right: 0px;
-    
-  
-    
-}
-     
-
-.welcome{
+    .welcome{
      background-color:#ebe3e3;
      text-align: center;
      
@@ -138,18 +116,55 @@ body{font-family: 'Lato', sans-serif;
     margin-left: 0px;
     margin-right:0px;} 
 
+    .embed-responsive-item{
+    padding-right:20px;
+    padding-left: 20px;
+  padding-bottom: 20px;}
     
-    
+/*Testimonials*/
 
+  .testimonial-container{
+    width:100%;
+ 
+    }
+
+   .testimonials{
+       font-size: 20px;
+    background-color: cadetblue;
+    text-align: center;
+     height:100%;
+    width:100%;
+   padding-left: 10px;
+   padding-right: 5px;
+    padding-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 0px;}
+
+    .picture{
+    height:90px;
+    width: 90px;
+   
+    clip-path: circle(50% at 50% 50%);
+   
+
+}
+
+.quote-text{
+    padding-top:40px;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    text-align: center;
+    display: inline-block;
+    
+}
+    
+    
+  /*Footer*/
    .footer-container{
         width:100%;
         
     }
-
-    
-
-
-
 
 .footer{
 
@@ -184,13 +199,10 @@ body{font-family: 'Lato', sans-serif;
      
  }
 
-
+/*Bottom-Footer*/
  .bottom-footer-container{
     width:100%;
-   
-
-    
-    
+     
 }
 
 .bottom{
@@ -222,30 +234,7 @@ body{font-family: 'Lato', sans-serif;
     
 }
 
-.embed-responsive-item{
-    padding-right:20px;
-    padding-left: 20px;
-  padding-bottom: 20px;
-    
-  
-  
-}
-
-
-.head{
-     font-size: 40px;   
-    margin-top: 60px;
-    text-align: center;
-    margin-bottom: 20px;
-    padding-bottom: 30px;
-    }
-
-
-
-.copyright{
-    margin-top:20px;
-}
-/*General Enquiry*/
+/*About-Us*/
 
 .about-us{
 
@@ -262,7 +251,7 @@ body{font-family: 'Lato', sans-serif;
     
 }
 
-
+/*Contact-Form*/
 .form-container{
   
     width:100%;
@@ -286,6 +275,8 @@ body{font-family: 'Lato', sans-serif;
     padding-right: 10px;
 
 }
+
+/*Sign-Up*/
 .form2container{
     padding-right: 10px;
     width: 100%;
@@ -336,6 +327,7 @@ body{font-family: 'Lato', sans-serif;
     border-color: blue;
 }
 
+/*Button*/
 .btn-sign{
     margin-top: 20px;
     border-radius: 1px;
@@ -352,6 +344,7 @@ body{font-family: 'Lato', sans-serif;
     color:#fff;
 }
 
+
 .btn-submit{
     margin-top: 20px;
     border-radius: 1px;
@@ -367,25 +360,19 @@ body{font-family: 'Lato', sans-serif;
     color:#fff;
 }
 
-
-.picture{
-    height:90px;
-    width: 90px;
-   
-    clip-path: circle(50% at 50% 50%);
-   
-
+/*Memberships*/
+.memberships-container{
+    width:100%;
 }
 
-.quote-text{
-    padding-top:40px;
-    color: white;
-    font-weight: bold;
-    padding-left: 20px;
-    text-align: center;
-    display: inline-block;
-    
-}
+ .memberships{
+     background-color:#ebe3e3;
+     text-align: center;
+     height: 100%;
+    width:100%;
+    padding:40px;
+    margin-left: 0px;
+    ;}
     
 .box-container{
     width:100%;}
@@ -399,28 +386,22 @@ background-color:white;
 
 
 #leftbox { 
-                 text-align: center;
-                background:black; 
-                color: white;
-                
-                
-            } 
+text-align: center;
+background:black; 
+color: white;
+        } 
+
 #middlebox{ 
-                text-align: center;
-                background:grey;
-                color:white;
-                
-            } 
+text-align: center;
+background:grey;
+color:white;
+        } 
+
 #rightbox{ 
-                text-align: center;
-                background:cadetblue; 
-                color: white;
-                
-               
-            } 
-
-   
-
+text-align: center;
+background:cadetblue; 
+color: white;
+        } 
 
 .features{
     list-style-type: none;
@@ -433,6 +414,16 @@ background-color:white;
     margin-top: 10px;
 }
 
+/*Classes*/
+.class-container{
+    
+    width: 100%;
+}
+.descriptions{
+    height: 100%;
+    width:100%;
+    background-color: cadetblue;
+}
 .classes{
     list-style-type: none;
     text-align: center;
@@ -448,24 +439,9 @@ background-color:white;
 
 .table{ border: 1 px solid;}
  
-.class-container{
-    height:100%;
-    width: 100%;
-}
-.descriptions{
-    height: 100%;
-    width:100%;
-    background-color: cadetblue;
-}
-
-.memberships{
-    background-color: cadetblue;
-    text-align: center;
-    padding:40px;
-}
 
 
-
+/*Media-Queries*/
 @media (max-width: 480px) {
     #bg-image {
         background-image: url("../images/indexsm.jpg");}
@@ -489,7 +465,7 @@ background-color:white;
 }
 
 
-    @media (max-width: 480px) {
+@media (max-width: 480px) {
     .form-section {
         background-image: url("../images/formsm.jpg");
     }
