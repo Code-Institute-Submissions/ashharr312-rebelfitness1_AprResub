@@ -384,6 +384,12 @@ h1{
     background-color:cadetblue;
     color: #fff;
     padding: 8px 12px 12px 8px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+
    
 }
 
@@ -440,26 +446,54 @@ background-color:white;
     height:100%;
     width: 100%;
     padding-bottom: 30px;
-    } 
+     padding-top: 10px;
+    margin: 0 auto;
+    max-width: 85%;
+}
+
+/*Credit to w3s.schools.com*/
 
 
+
+
+
+
+/*-------*/
 #leftbox { 
 text-align: center;
 background:black; 
 color: white;
-        } 
+ border-radius: 5px;
+ padding-bottom:10px;
+ width:100%;
+ margin-bottom: 10px;
+}
+ 
+ 
+        
 
 #middlebox{ 
 text-align: center;
 background:grey;
 color:white;
-        } 
+  border-radius: 5px;
+  padding-bottom:10px;
+  width:100%;
+  margin-bottom: 10px;
+     } 
 
 #rightbox{ 
 text-align: center;
 background:cadetblue; 
 color: white;
+ border-radius: 5px;
+ padding-bottom:10px;
+ width: 100%;
+ margin-bottom: 10px;
+
+ 
         } 
+
 
 .features{
     list-style-type: none;
@@ -468,8 +502,11 @@ color: white;
 .link{
     border: black;
     float:left;
-    margin-left: 45%;
-    margin-top: 10px;
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 85%;
+    
+    
 }
 
 /*Classes*/
@@ -489,6 +526,14 @@ color: white;
     text-align: center;
     padding-right:10px;
     padding-left:10px;
+
+
+}
+
+.classes li{
+    font-size: 18px;
+    font-weight: 600;
+
 
 }
 
