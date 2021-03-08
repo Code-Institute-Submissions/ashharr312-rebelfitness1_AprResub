@@ -1,6 +1,5 @@
 # Rebel Fitness Website
 
-View the live site here. [https://8000-blush-kiwi-lfuzl4al.ws-eu03.gitpod.io/index.html]
 
 This website will act as a marketing tool for Rebel Fitness Gym. The aim of this site is to attract potential members to sign up to the gym and as a resource for current members to contact the gym or to view such features such as the class timetable. It is designed to be responsive in nature making it accessible across desktop, laptop, tablet and mobile devices to maximize sign up opportunities for the company. 
 
@@ -83,32 +82,30 @@ This website will act as a marketing tool for Rebel Fitness Gym. The aim of this
 
 #### Frameworks and Libraries Used 
 
-1. Bootstrap 4.2.3 (Link to Bootstrap)
+1. Bootstrap 4.2.3 [https://getbootstrap.com/docs/4.2/getting-started/download/]
 * Bootstrap was utilized to create a responsive design across all devices using the 12 column grid system. Other components such as forms, navbar and alerts were key features that I used to make my website as interactive as possible.
 
-2. Font Awesome (Link to Font Awesome)
+2. Font Awesome [https://fontawesome.com/]
 * Font Awesome was used to create icons for the social media links,  for the downloadable timetable to make it easy for users to navigate this task and finally for the icons used to represent each of the classes offered.
 
-3.Google Fonts (Link to Google Fonts)
+3.Google Fonts [https://fonts.google.com/]
 * Google Fonts was used to import the font Lato which is used across the entire website to format content in an attractive manner to satisfy UX demands.
 
-4. Hover.CSS (Link to Hover.CSS)
-*Hover.CSS was utilized on the text-input property for the general enquiry form as well as for the buttons on the general enquiry form and sign-up form so the user can clearly see they are interacting with the element.
 
-5. jQuery
-* jQuery was included with Bootstrap and was used for the navbar and for the modal.
+4. jQuery
+* jQuery was included with Bootstrap and was used for the navbar.
 
 
-6.GitHub
+5.GitHub [https://github.com/]
 * GitHub was used to store the code for the project through the git push command in the terminal.
 
-7. Git
+6. Git
 * Git was utilised for version control through the terminal using common commands such as git add, commit and push so that the code will be stored in GitHub.
 
-8. Microsoft Photo
+7. Microsoft Photo [https://www.microsoft.com/en-us/p/photo-editor-free/9wzdncrdt2g5?activetab=pivot:overviewtab]
 * Photo was used to crop and edit images to fit the sizing needs of the webpage.
 
-9.Balsamiq
+8.Balsamiq [https://balsamiq.com/learn/]
 * Balsamiq was the online wireframe tool utilised to plan and create the design of the project.
 
 ## Testing
@@ -272,12 +269,12 @@ Media:
 15: [Footer Image Blog Post][https://unsplash.com/photos/HK4n3W95F2c] Photo by: Wesual Click
 
 ### Video
-1.[Welcome Video][https://www.youtube.com/watch?v=4vx1qpDZMZM] Video By: Muhammad Hashim 0.1
+* Welcome Video][https://www.youtube.com/watch?v=4vx1qpDZMZM] Video By: Muhammad Hashim 0.1
 
 ### Map
-1.[Map From Google Maps][https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2461.846025216821!2d-8.46433138421552!3d51.900273979701616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48449008e16f29ef%3A0x5eebf6993cd4cf17!2s1%20Penrose%20Quay%2C%20Victorian%20Quarter%2C%20Cork!5e0!3m2!1sen!2sie!4v1614730047218!5m2!1sen!2sie]
+* [Map From Google Maps][https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2461.846025216821!2d-8.46433138421552!3d51.900273979701616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48449008e16f29ef%3A0x5eebf6993cd4cf17!2s1%20Penrose%20Quay%2C%20Victorian%20Quarter%2C%20Cork!5e0!3m2!1sen!2sie!4v1614730047218!5m2!1sen!2sie]
 
 
 ## Acknowledgements
-*  My mentor for his feedback and guidance through the project phase helping me to bring it to completion.
+*  My mentor for his feedback and guidance throughout the project phase helping me to bring it to completion.
 
