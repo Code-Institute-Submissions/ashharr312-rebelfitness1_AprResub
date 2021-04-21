@@ -231,7 +231,7 @@ To deploy the project to GitHub Pages I carried out the following steps:
 
 1. Bootstrap 4.2.3: This library was used throughout the project especially the grid system for responsive design as well as in the creation of components such as the navabar, alert and for forms.
 
-2. W3Schools.com which was used to create the responsive iframe used for my video. [https://www.w3schools.com/howto/howto_css_responsive_iframes.asp]
+2. Online Tutorials[Fullscreen Video Background] which was used to create the responsive header on the index used for my video. [https://www.youtube.com/watch?v=5q8pIRVabFg]
 
 3. ishadeed.com which was used to create a clip-path to round my testimonial photos. [https://ishadeed.com/article/clip-path/]
 
@@ -268,8 +268,9 @@ Media:
 
 15: [Footer Image Blog Post][https://unsplash.com/photos/HK4n3W95F2c] Photo by: Wesual Click
 
+
 ### Video
-* Welcome Video][https://www.youtube.com/watch?v=4vx1qpDZMZM] Video By: Muhammad Hashim 0.1
+* [Video Banner][https://www.videvo.net/video/man-doing-press-ups-in-gym/452246/] Video by: Videvo
 
 ### Map
 * [Map From Google Maps][https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2461.846025216821!2d-8.46433138421552!3d51.900273979701616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48449008e16f29ef%3A0x5eebf6993cd4cf17!2s1%20Penrose%20Quay%2C%20Victorian%20Quarter%2C%20Cork!5e0!3m2!1sen!2sie!4v1614730047218!5m2!1sen!2sie]
