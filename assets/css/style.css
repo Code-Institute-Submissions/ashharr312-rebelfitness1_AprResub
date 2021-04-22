@@ -20,7 +20,7 @@ body{
     }
 
 h1{
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -39,8 +39,7 @@ div.col-12{
 
 .alert-nav-container{
     
-    z-index: 1;
-    position: absolute;
+   
      width: 100%;
      height: 100%;
     max-width: 100%;
@@ -351,6 +350,7 @@ text-align: center;
     margin: 5px 0 20px 0;
     border: 1px solid lightgray;
     border-radius: 2px;
+    z-index: 1;
 }
 
 .text-input:hover{
@@ -409,6 +409,7 @@ text-align: center;
     padding:50px;
     margin-left: 0px;
     }
+    
     
 .box-container{
     width:100%;}
@@ -482,12 +483,10 @@ div.col-lg-4{
     list-style-type: none;
 }
 
-.link{
+a.center{
     border: black;
-    float:left;
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 85%;   
+    margin-top: 40px;
+
 }
 
 /*Classes*/
@@ -632,13 +631,6 @@ text-align: center;
     }
 }
 
-    @media (min-width: 1400px) and (max-width: 2700px) {
-    .banner{
-        background-image: url("../images/gym.mp4");
-        height: 800px;
-        width: 100%;
-
-    }}
 
 @media (max-width: 480px) {
     .form-section {
@@ -654,11 +646,12 @@ text-align: center;
 
  /*Video*/
     /*Credit:code for responsive video header taken from Online Tutorials url:"https://www.youtube.com/watch?v=5q8pIRVabFg" and edited for project needs*/
+
 @media (min-width: 768px){
 .banner{
     
      overflow: hidden;
-     height: 100vh;
+     height: 400px;
      width:100%;
      display: flex;
     justify-content: center;
@@ -674,6 +667,7 @@ text-align: center;
     width:100%;
     height:100%;
     pointer-events: none;
+    z-index:-1;
 }}
 
 @media (min-width: 768px){
@@ -690,8 +684,7 @@ text-align: center;
 .banner .content h1{
     margin:0;
     padding:0;
-    font-size:4.5em;
-    text-transform:uppercase;
+    font-size:3.5em;
     color:#fff;}
 }
 
@@ -704,15 +697,48 @@ text-align: center;
 }
 
 
+
 @media (max-width: 767px) {
 
-.banner{
+.banner {
+        overflow: hidden;
+     height: 100%;
+     width:100vw;
+    justify-content: center;
+    align-items: center;
+background-color: rgba(0,0,0,0.7);}}
 
-    display: none;
-    
+@media (max-width: 767px){
+
+.banner video{
+     max-width: 100%; 
+  display: block; 
+  z-index:-1;
 }}
 
-@media (max-width: 767px) {
-.banner video{display: none;
-}
-}
+
+    @media (max-width: 767px){
+.banner .content{
+    position:relative;
+    z-index:1;
+    max-width:1000px;
+    margin:0 auto;
+    text-align:center;
+}}
+
+
+@media (max-width: 767px){
+.banner .content h1{
+    margin:0;
+    padding:0;
+    font-size:2.5em;
+    color:#fff;}}
+
+    @media (max-width: 767px){
+.banner .content p{
+    
+    font-size:1.2em;
+    color:#fff;
+    padding: 10px;
+}}
+
